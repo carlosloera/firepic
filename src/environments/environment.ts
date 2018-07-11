@@ -1,11 +1,11 @@
 export const environment = {
     production: true,
     firebase: {
-        apiKey: "AIzaSyBjN7glPOh64jf3w6AMXZo65vlgCvA2Ma8",
-        authDomain: "firepic-58ab1.firebaseapp.com",
-        databaseURL: "https://firepic-58ab1.firebaseio.com",
-        projectId: "firepic-58ab1",
-        storageBucket: "firepic-58ab1.appspot.com",
-        messagingSenderId: "838025251960"
+        apiKey: "AIzaSyCs-Bla-duoTbDiGLiWAw1cj7K6vdwY07E",
+        authDomain: "propina-3c45d.firebaseapp.com",
+        databaseURL: "https://propina-3c45d.firebaseio.com",
+        projectId: "propina-3c45d",
+        storageBucket: "propina-3c45d.appspot.com",
+        messagingSenderId: "369044818497"
     }
   };

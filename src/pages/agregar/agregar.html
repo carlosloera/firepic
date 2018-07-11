@@ -23,13 +23,14 @@
         <ion-input [(ngModel)]="tipo" type="text"></ion-input>
       </ion-item>
     
-      <ion-item>
-        <ion-label fixed>Imagen</ion-label>
-        <ion-input [(ngModel)]="img" type="text"></ion-input>
+     
+      <ion-item *ngIf="imagePreview" >
+        <img [src]="imagePreview">
       </ion-item>
     
       <button ion-button block (tap)="agregarPlatillo()">Agregar</button>
-    
+      <button ion-button block (tap)="showCamera()">Camara</button>
+      <button ion-button block (tap)="galeria()">Galeria</button>
     </ion-list>
 
 </ion-content>
